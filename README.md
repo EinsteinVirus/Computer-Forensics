@@ -9,7 +9,8 @@ On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned 
 
 ## Questions
 ### 1. What is the image hash? Does the acquisition and verification hash match?
-
+--> MD5: aee4fcd9301c03b3b054623ca261959a
+![alt text](/Images/Ques1.png)
 ### 2. What operating system was used on the computer?
 ### 3. When was the install date?
 ### 4. What is the timezone settings?
