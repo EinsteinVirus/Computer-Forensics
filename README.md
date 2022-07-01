@@ -1,3 +1,7 @@
+<p>
+<img src="/Images/hs.gif" alt ="hs">
+</p>
+
 # Computer Forensics
 Cfreds's Hacking Case Walkthrough
 
