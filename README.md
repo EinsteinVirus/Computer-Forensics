@@ -1,11 +1,12 @@
-<p>
-<img src="/Images/hs.gif" alt ="hs">
+<p align="center">
+<img src="/Images/hs_gif_bg.gif" alt="bg" height="300 px" width="250px">
 </p>
 
-# Computer Forensics
-Cfreds's Hacking Case Walkthrough
+<h1 align="Center"><b>Computer Forensics</b></h1>
 
-## Scenario
+<h3 align="Center">Cfreds's Hacking Case Walkthrough</h3>
+
+## **Scenario**
 
 On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned along with a wireless PCMCIA card and an external homemade 802.11b antennae. It is suspected that this computer was used for hacking purposes, although cannot be tied to a hacking suspect, G=r=e=g S=c=h=a=r=d=t. (The equal signs are just to prevent web crawlers from indexing this name; there are no equal signs in the image files.)  Schardt also goes by the online nickname of “Mr. Evil” and some of his associates have said that he would park his vehicle within range of Wireless Access Points (like Starbucks and other T-Mobile Hotspots) where he would then intercept internet traffic, attempting to get credit card numbers, usernames & passwords.
 
