@@ -18,7 +18,7 @@ On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned 
 MD5: aee4fcd9301c03b3b054623ca261959a
 ```
 <p>
-<img src="/Images/Ques1.png" alt ="Ques1">
+<a href="#"><img src="/Images/Ques1.png" alt ="Ques1"></a>
 </p>
 
 ### 2. What operating system was used on the computer?
