@@ -4,7 +4,7 @@
 
 <h1 align="Center"><b>Computer Forensics</b></h1>
 
-<h3 align="Center">Cfreds's Hacking Case Walkthrough</h3>
+<h3 align="Center">CFReDS's Hacking Case Walkthrough</h3>
 
 ## **Scenario**
 
