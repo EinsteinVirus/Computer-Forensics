@@ -50,35 +50,254 @@ Method: We will find the Install Date at “C:\Windows\system32\config\Software\
 ### 4. What is the timezone settings?
 ```
 Central Standard Time (CST) (GMT -6:00)
+
+Method: We will find the timezone settings at “C:\windows\system32\config\system\CurrentControlSet\Control\TimeZoneInformation”.
+        The timezone we found is CST which is 6 hours behind GMT.
 ```
 <p>
 <a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
 </p>
 
 ### 5. Who is the registered owner?
+```
+Greg Schardt
+
+Method: We will find the Registered Owner info at “C:\windows\system32\config\software\Microsoft\Windows NT\CurrentVersion\RegisteredOwner”
+```
+<p>
+<a href="#"><img src="/Images/Ques5.png" alt ="Ques5"></a>
+</p>
+
 ### 6. What is the computer account name?
+```
+Mr. Evil
+
+Method: We will find the account name at “C:\windows\system32\config\SAM\Users\Names”
+```
+<p>
+<a href="#"><img src="/Images/Ques6.png" alt ="Ques6"></a>
+</p>
+
 ### 7. What is the primary domain name?
+```
+N-1A9ODN6ZXK4LQ
+
+Method: We will find the Default Domain Name at “C:\windows\system32\config\software\Microsoft\Windows NT\CurrentVersion\Winlogon”
+```
+<p>
+<a href="#"><img src="/Images/Ques7.png" alt ="Ques7"></a>
+</p>
+
 ### 8. When was the last recorded computer shutdown date/time?
+```
+2004–08–27 10:46:33 AM
+
+Method: We will get the last recorded computer shutdown at “C:\windows\system32\config\system\CurrentControlSet\Control\Windows\ShutdownTime”.
+        We get the value C4 FC 00 07 4D 8C C4 01 which needs to be converted using DCode app which is time stamp decoder.
+```
+<p>
+<a href="#"><img src="/Images/Ques8.png" alt ="Ques8"></a>
+</p>
+
 ### 9. How many accounts are recorded (total number)?
+```
+5
+
+Method: Total accounts can be found at  “C:\windows\system32\config\SAM\Users\Names”
+```
+<p>
+<a href="#"><img src="/Images/Ques9.png" alt ="Ques9"></a>
+</p>
+
 ### 10. What is the account name of the user who mostly uses the computer?
+```
+Mr. Evil
+
+Method: We can find the Login count of the user click on Login Name in the OS Account section
+```
+<p>
+<a href="#"><img src="/Images/Ques10.png" alt ="Ques10"></a>
+</p>
+
 ### 11. Who was the last user to logon to the computer?
+```
+Mr. Evil
+
+Method: We will find the default user at “C:\windows\system32\config software\Microsoft\Windows NT\CurrentVersion\Winlogon”
+```
+<p>
+<a href="#"><img src="/Images/Ques11.png" alt ="Ques11"></a>
+</p>
+
 ### 12. A search for the name of “G=r=e=g S=c=h=a=r=d=t” reveals multiple hits. One of these proves that G=r=e=g S=c=h=a=r=d=t is Mr. Evil and is also the administrator of this computer. What file is it? What software program does this file relate to?
+```
+The file is "irunin.ini" and the name of the software program is "Look@LAN".
+
+Method: When we search for the word "Greg Schardt" we get 10 results and in that one of the file is "irunin.ini" and in that 
+        we find it is mentioned that regowner is Greg Schardt while the LAN user is Mr. Evil which proves that both are same 
+        and a program named "Look@LAN" is used for same.
+```
+<p>
+<a href="#"><img src="/Images/Ques12.png" alt ="Ques12"></a>
+</p>
+
 ### 13.  List the network cards used by this computer
+```
+The name of both the network cards is “Compaq WL110 Wireless LAN PC Card” & “Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)”
+
+Method: We will find the name of the network cards at "C:\windows\system32\config\software\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+```
+<p>
+<a href="#"><img src="/Images/Ques13_1.png" alt ="Ques13_1"></a>
+        
+<a href="#"><img src="/Images/Ques13_2.png" alt ="Ques13_2"></a>
+</p>
+
 ### 14. This same file reports the IP address and MAC address of the computer. What are they?
+```
+The IP address & MAC address of the computer are 192.168.1.111 & 0010a4933e09 respectively.
+
+Method: We will find the IP and MAC Address at "C:\Program Files\Look@LAN\irunin.ini".
+```
+<p>
+<a href="#"><img src="/Images/Ques14.png" alt ="Ques14"></a>
+</p>
+
 ### 15. An internet search for vendor name/model of NIC cards by MAC address can be used to find out which network interface was used. In the above answer, the first 3 hex characters of the MAC address report the vendor of the card. Which NIC card was used during the installation and set-up for LOOK@LAN?
+```
+Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)
+
+Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous question and using the first 3 hex 
+        characters of the address and using OUI lookup website online we came to know about the vendor name.
+```
+<p>
+<a href="#"><img src="/Images/Ques15.png" alt ="Ques154"></a>
+</p>
+
 ### 16. Find 6 installed programs that may be used for hacking.
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 17. What is the SMTP email address for Mr. Evil?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 19. What two installed programs show this information?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 25. What websites was the victim accessing?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 26. Search for the main users web based email address. What is it?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 28. How many executable files are in the recycle bin?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 29. Are these files really deleted?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 30. How many files are actually reported to be deleted by the file system?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
+
 ### 31. Perform a Anti-Virus check. Are there any viruses on the computer?
+```
+
+```
+<p>
+<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+</p>
