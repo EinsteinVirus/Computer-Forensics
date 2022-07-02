@@ -16,6 +16,9 @@
 ### 1. What is the image hash? Does the acquisition and verification hash match?
 ```
 MD5: aee4fcd9301c03b3b054623ca261959a
+Acquition hash is not given in this scenario so we can't say that it will match or not with the verification hash.
+
+Method: We find MD5 hash info by clicking on Data Source -> image file. Then in the file metadata, we find the MD5 Hash.
 ```
 <p>
 <a href="#"><img src="/Images/Ques1.png" alt ="Ques1"></a>
@@ -24,6 +27,9 @@ MD5: aee4fcd9301c03b3b054623ca261959a
 ### 2. What operating system was used on the computer?
 ```
 Windows XP
+
+Method: We find OS info in Acquisition details which we find by clicking on Data Source -> image file. 
+        Then in the file metadata, we find the Acquired OS.
 ```
 <p>
 <a href="#"><img src="/Images/Ques2.png" alt ="Ques2"></a>
@@ -31,7 +37,11 @@ Windows XP
 
 ### 3. When was the install date?
 ```
-Thursday, August 19, 2004 10:48:27 PM UTC
+Thursday, August 19, 2004 10:48:27 PM GMT
+
+Method: We will find the Install Date at “C:\Windows\system32\config\Software\Microsoft\Windows NT\CurrentVersion\InstallDate”.
+        The Date we found is in UNIX format so we need to convert it in human readeable format.
+        Just copy the number in the brackets and convert using any converter online.
 ```
 <p>
 <a href="#"><img src="/Images/Ques3.png" alt ="Ques3"></a>
