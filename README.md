@@ -6,6 +6,9 @@
 
 <h3 align="Center">CFReDS's Hacking Case Walkthrough</h3>
 
+## **Introduction**
+> Here for the analysis of the scenario given below we will be using the <a href=https://www.autopsy.com/>Autopsy tool</a>. Autopsy® is the premier end-to-end open source digital forensics platform. Built by Basis Technology with the core features you expect in commercial forensic tools, Autopsy is a fast, thorough, and efficient hard drive investigation solution that evolves with your needs.
+
 ## **Scenario**
 
 > On 09/20/04 , a Dell CPi notebook computer, serial # VLQLW, was found abandoned along with a wireless PCMCIA card and an external homemade 802.11b antennae. It is suspected that this computer was used for hacking purposes, although cannot be tied to a hacking suspect, G=r=e=g S=c=h=a=r=d=t. (The equal signs are just to prevent web crawlers from indexing this name; there are no equal signs in the image files.)  Schardt also goes by the online nickname of “Mr. Evil” and some of his associates have said that he would park his vehicle within range of Wireless Access Points (like Starbucks and other T-Mobile Hotspots) where he would then intercept internet traffic, attempting to get credit card numbers, usernames & passwords.
@@ -171,7 +174,9 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
         characters of the address and using OUI lookup website online we came to know about the vendor name.
 ```
 <p>
-<a href="#"><img src="/Images/Ques15.png" alt ="Ques154"></a>
+<a href="#"><img src="/Images/Ques15_1.png" alt ="Ques15_1"></a>
+
+<a href="#"><img src="/Images/Ques15_2.png" alt ="Ques15_2"></a>
 </p>
 
 ### 16. Find 6 installed programs that may be used for hacking.
@@ -179,7 +184,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques16.png" alt ="Ques16"></a>
 </p>
 
 ### 17. What is the SMTP email address for Mr. Evil?
@@ -187,7 +192,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques17.png" alt ="Ques17"></a>
 </p>
 
 ### 18. What are the NNTP (news server) settings for Mr. Evil?
@@ -195,7 +200,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques18.png" alt ="Ques18"></a>
 </p>
 
 ### 19. What two installed programs show this information?
@@ -203,7 +208,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques19.png" alt ="Ques19"></a>
 </p>
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
@@ -211,7 +216,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques20.png" alt ="Ques20"></a>
 </p>
 
 ### 21. A popular IRC (Internet Relay Chat) program called MIRC was installed.  What are the user settings that was shown when the user was online and in a chat channel?
@@ -219,7 +224,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques21.png" alt ="Ques21"></a>
 </p>
 
 ### 22. This IRC program has the capability to log chat sessions. List 3 IRC channels that the user of this computer accessed.
@@ -227,7 +232,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques22.png" alt ="Ques22"></a>
 </p>
 
 ### 23. Ethereal, a popular “sniffing” program that can be used to intercept wired and wireless internet packets was also found to be installed. When TCP packets are collected and re-assembled, the default save directory is that users \My Documents directory. What is the name of the file that contains the intercepted data?
@@ -235,7 +240,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques23.png" alt ="Ques23"></a>
 </p>
 
 ### 24. Viewing the file in a text format reveals much information about who and what was intercepted. What type of wireless computer was the victim (person who had his internet surfing recorded) using?
@@ -243,7 +248,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques24.png" alt ="Ques24"></a>
 </p>
 
 ### 25. What websites was the victim accessing?
@@ -251,7 +256,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques25.png" alt ="Ques25"></a>
 </p>
 
 ### 26. Search for the main users web based email address. What is it?
@@ -259,7 +264,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques26.png" alt ="Ques26"></a>
 </p>
 
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
@@ -267,7 +272,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques27.png" alt ="Ques27"></a>
 </p>
 
 ### 28. How many executable files are in the recycle bin?
@@ -275,7 +280,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques28.png" alt ="Ques28"></a>
 </p>
 
 ### 29. Are these files really deleted?
@@ -283,7 +288,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques29.png" alt ="Ques29"></a>
 </p>
 
 ### 30. How many files are actually reported to be deleted by the file system?
@@ -291,7 +296,7 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques30.png" alt ="Ques30"></a>
 </p>
 
 ### 31. Perform a Anti-Virus check. Are there any viruses on the computer?
@@ -299,5 +304,5 @@ Method: The NIC Card had MAC Address 0010a4933e09 which we found in the previous
 
 ```
 <p>
-<a href="#"><img src="/Images/Ques4.png" alt ="Ques4"></a>
+<a href="#"><img src="/Images/Ques31.png" alt ="Ques31"></a>
 </p>
