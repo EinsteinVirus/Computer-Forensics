@@ -219,17 +219,28 @@ Method: We can find this by searching for NNTP in the Keyword search box and in 
 
 ### 19. What two installed programs show this information?
 ```
-MS Outlook Express
+MS Outlook Express & Forte
 
-Method:
+Method: We found 4 mail clients from that we need to find which 2 clients are used by Mr. Evil. After some search we find "Agent.ini" 
+        which is the file Forte Client and in "C:/Documents and Settings/Mr. Evil/Local Settings/Application Data/Identities/{EF086998-1115-4ECD-9B13-9ADC067B4929}/Microsoft/" 
+        we find the data for Outlook Express.
 ```
 <p>
 <a href="#"><img src="/Images/Ques19.png" alt ="Ques19"></a>
+
+<a href="#"><img src="/Images/Ques19_1.png" alt ="Ques19_1"></a>
 </p>
 
 ### 20. List 5 newsgroups that Mr. Evil has subscribed to?
-```
 
+The newsgroups are:
+* Alt.binaries.hacking.utilities
+* Alt.stupidity.hackers.malicious
+* Free.binaries.hackers.malicious
+* Free.binaries.hacking.talentless.troll_haven
+* alt.dss.hack 
+```
+Method: We will find this all newsgroups at "C:\Document and Settings\Mr. Evil\Local Settings\Application Data\Identities\{EF086998–1115–4ECD-9B13 9ADC067B4929} \Microsoft\Outlook Express"
 ```
 <p>
 <a href="#"><img src="/Images/Ques20.png" alt ="Ques20"></a>
@@ -300,6 +311,8 @@ The main user's web based email address is mrevilrulez@yahoo.com
 ### 27. Yahoo mail, a popular web based email service, saves copies of the email under what file name?
 ```
 "ShowLetter[1].htm" is the file in which yahoo saves copies of the email.
+
+Method: We will find the required information by keyword searching the mail found in previous question.
 ```
 <p>
 <a href="#"><img src="/Images/Ques27.png" alt ="Ques27"></a>
