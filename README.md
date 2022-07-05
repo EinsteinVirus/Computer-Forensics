@@ -348,3 +348,10 @@ Autopsy itself performs an antivirus check & it shows its result inside Interest
 <p>
 <a href="#"><img src="/Images/Ques31.png" alt ="Ques31"></a>
 </p>
+
+## Thanks for Reading....
+
+Contact me here:
+<p>
+<a href="https://www.linkedin.com/in/het-shah99"><img src="https://img.shields.io/badge/LinkedIn-098BF5?style=plastic&logo=LinkedIn&logoColor=white" alt ="LinkedIn"></a>
+</p>
